@@ -2,7 +2,6 @@ use std::path::PathBuf;
 
 use clap::{Parser, ValueEnum};
 
-/// Hva programmet skal gjøre. Variantene er plassholdere – juster etter behov.
 #[derive(Debug, Clone, Copy, ValueEnum)]
 enum Action {
     /// Les CSV, sorter på geografisk indeks og skriv Parquet
